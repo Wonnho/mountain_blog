@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shift/unshift</title>
+</head>
+<body>
+<script>
+    let fruits=['브로컬리','후추','향신료']
+    let shiftedFruits=fruits.shift();
+    console.log('shiftedFruits:',shiftedFruits)
+    console.log('fruits after shift',fruits)
+
+    let unshiftedFruits=fruits.unshift('고등어')
+    console.log('unshiftedFruits',unshiftedFruits)
+
+    fruits.splice(1,1)
+    console.log(fruits)
+</script>
+</body>
+</html>

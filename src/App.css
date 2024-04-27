@@ -2,11 +2,34 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.black-nav {
+  display: flex;
+  background: aquamarine;
+  width: 100%;
+  color: #631515;
+  padding-left: 22px;
+  flex:1;
 }
 
+div {
+  box-sizing: border-box;
+}
+
+.list {
+  padding-left: 20px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.modal {
+  margin-top: 22px;
+  padding: 1px;
+  background: #d0cece;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
